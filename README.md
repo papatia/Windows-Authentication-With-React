@@ -1,6 +1,10 @@
 # Securing Your React Project with Windows Authentication using .NET 7: A Step-by-Step Guide
 ## Introduction
-Securing your web application is of utmost importance to protect sensitive data and ensure authorized access. In this step-by-step guide, we will demonstrate how to implement Windows Authentication in an ASP.NET Core WebAPI project using .NET 7. Additionally, we will cover how to configure Cross-Origin Resource Sharing (CORS) to enable requests from your React server while maintaining the necessary security measures.
+Papatia had an app that worked on-premise, and the decision was made to update its UI. To accomplish this, the Papatia team set up the React project. However, a challenge arose due to the existing use of LDAP authentication, which blocked the direct sending of inner requests.
+
+As the Papatia team, the focus is on applying best practices. Extensive research was conducted to find a solution for using React with Windows Authentication.
+
+Securing your web application is paramount to safeguarding sensitive data and ensuring authorized access. In this step-by-step guide, the Papatia team will demonstrate how to implement Windows Authentication in an ASP.NET Core WebAPI project using .NET 7. Additionally, the guide will cover the configuration of Cross-Origin Resource Sharing (CORS) to enable requests from your React server while maintaining the necessary security measures.  
 
 ### Part 1: Adding Windows Authentication to your ASP.NET Core WebAPI
 Windows Authentication provides a robust mechanism for authenticating users using their Windows credentials. By enabling Windows Authentication in your ASP.NET Core WebAPI, you can ensure that only authenticated users with the necessary permissions can access your API endpoints.
